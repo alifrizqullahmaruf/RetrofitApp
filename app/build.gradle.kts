@@ -9,6 +9,7 @@ android {
     namespace = "com.example.retrofitapp"
     compileSdk = 34
 
+
     // Konfigurasi default aplikasi
     defaultConfig {
         applicationId = "com.example.retrofitapp"
@@ -64,4 +65,7 @@ dependencies {
 
     // Library Glide untuk memuat gambar
     implementation("com.github.bumptech.glide:glide:4.15.1")
+
+    implementation ("com.github.bumptech.glide:glide:4.12.0")
+
 }
